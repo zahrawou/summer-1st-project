@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1700px;
+    
+}
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    height: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px; 
+    
+}
+
+nav ul li a {
+    color: #323232;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 26px;
+   
+}
+nav .a{
+    width: 10px;
+    padding: 17px 0px 0px 30px;
+    position: absolute;
+    color: #323232;
+}
+
+.b{
+    width: 50px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+.c{
+    width: 50px;
+    margin-left: 240px;
+    position: absolute;
+    z-index: 2;
+}
+
+a:hover{
+    font-size: 100%;
+    color: #000;
+}
+a:hover::after{
+    color: #000;
+}
+.w{
+    width: 550px;
+    margin:  190px 0px 0px 900px;
+    position: absolute;
+}
+.c {
+    width: 50px;
+
+}
+.d1{
+    font-family:  "Commissioner", sans-serif;
+    font-size: 90px;
+    color: #F7B41A;
+    margin: 230px 0px 0px 90px;
+    position: absolute;
+}
+.d2{
+    font-family:  "Commissioner", sans-serif;
+    font-size: 90px;
+    color: #F7B41A;
+    margin: 330px 0px 0px 130px;
+    position: absolute;
+}
+.d3{
+    font-family:  "Commissioner", sans-serif;
+    font-size: 100px;
+    color: #F7B41A;
+    margin: 430px 0px 0px 180px;
+    position: absolute;
+}
+.e{
+    height: 90px;
+    width: 700px;
+    position: absolute;
+    margin: 540px 0px 0px 110px;
+    border: 1px  transparent solid;
+    background-color: #F7B41A;
+    border-radius: 30px;
+    padding-left: 70px;
+    font-size: 30px;
+    color: white;
+}
+i.fa-solid.fa-magnifying-glass {
+    margin: 566px 0px 0px 120px ;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    
+}
+i.fa-solid.fa-clock-rotate-left {
+    margin: 566px 0px 0px 750px ;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+}
+.f {
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 860px 0px 0px 150px;
+    border-radius: 20px;
+}
+.g{
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 860px 0px 0px 650px;
+    border-radius: 20px;
+}
+.h{
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 860px 0px 0px 1150px;
+    border-radius: 20px;
+}
+.f .a{
+    width: 190px;
+    margin: -50px 0px 0px 34px;
+    
+}
+.f .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.f p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.f img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}
+
+.g .a{
+    width: 190px;
+    margin: -60px 0px 0px 34px;
+    
+}
+.g .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.g p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.g img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}
+.h .a{
+    width: 190px;
+    margin: -60px 0px 0px 34px;
+    
+}
+.h .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.h p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.h img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}
+.i {
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 1230px 0px 100px 150px;
+    border-radius: 20px;
+}
+.j{
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 1230px 0px 0px 650px;
+    border-radius: 20px;
+}
+.k {
+    border: 2px #c6c2c2 solid ;
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    margin: 1230px 0px 0px 1150px;
+    border-radius: 20px;
+}
+.i .a{
+    width: 190px;
+    margin: -60px 0px 0px 34px;
+}
+.i .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.i p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.i img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}
+.k .a{
+    width: 190px;
+    margin: -60px 0px 0px 34px;
+}
+.k .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.k p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.k img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}
+.j .a{
+    width: 190px;
+    margin: -60px 0px 0px 34px;
+}
+.j .b{
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px 0px 24px ;
+    color: #3C2F2F;
+}
+.j p.c {
+    font-family: "Roboto", sans-serif;
+    margin: 60px 0px 0px 50px ;
+    color: #3C2F2F;
+    font-size: 20px;
+}
+.j img.d{
+    width: 50px;
+    margin: 65px 0px 0px 150px;
+}

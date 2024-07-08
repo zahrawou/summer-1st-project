@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 1600px;
+    
+}
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    height: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px; 
+    
+}
+
+nav ul li a {
+    color: #323232;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 26px;
+   
+}
+img.a{
+    width: 50px;
+    padding: 17px 0px 0px 30px;
+    position: absolute;
+    color: #323232;
+}
+
+.b{
+    width: 50px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+.c{
+    width: 50px;
+    margin-left: 240px;
+    position: absolute;
+    z-index: 2;
+}
+
+a:hover{
+    font-size: 100%;
+    color: #000;
+}
+a:hover::after{
+    color: #000;
+}
+.w{
+    width: 550px;
+    margin:  190px 0px 0px 900px;
+    position: absolute;
+}
+
+input.a{
+    height: 70px;
+    width: 800px;
+    margin: 230px 0px 0px 350px;
+    padding: 0px 0px 0px 60px;
+    font-size: 20px;
+    box-shadow: 2px 2px 20px rgb(77, 75, 75);
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+i.fa-solid.fa-magnifying-glass{
+    margin: 250px 0px 0px -780px;
+    position: absolute;
+    font-size: 30px;
+    
+}
+img.e{
+    width: 50px;
+    margin: 235px 0px 0px 30px;
+    position: absolute;
+}
+.f{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px rgb(143, 140, 140);
+    width: 400px;
+    height: 470px;
+    margin: 150px 0px 0px 260px;
+    border-radius: 20px;
+    position: absolute;
+}
+.g{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px rgb(143, 140, 140);
+    width: 400px;
+    height: 480px;
+    margin: 150px 0px 0px 850px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.f .a{
+    margin: 10px 0px 0px 53px;
+    width: 240px;
+}
+.f h1{
+    position: absolute;
+    margin: 290px 0px 0px 90px;
+    font-family: "Roboto", sans-serif;
+}
+.f p{
+    position: absolute;
+    font-size: 25px;
+    margin: 350px 0px 0px 100px;
+    color: rgb(80, 77, 77);
+}
+.f img.b{
+    width: 50px;
+    position: absolute;
+    margin: 400px 0px 0px 290px;
+}
+.g .a{
+    margin: 20px 0px 0px 53px;
+    width: 240px;
+}
+.g h1{
+    position: absolute;
+    margin: 290px 0px 0px 90px;
+    font-family: "Roboto", sans-serif;
+}
+.g p{
+    position: absolute;
+    font-size: 25px;
+    margin: 350px 0px 0px 100px;
+    color: rgb(80, 77, 77);
+}
+.g img.b{
+    width: 50px;
+    position: absolute;
+    margin: 400px 0px 0px 290px;
+}
+.h{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px rgb(143, 140, 140);
+    width: 400px;
+    height: 470px;
+    margin: 700px 0px 0px 260px;
+    border-radius: 20px;
+    position: absolute;
+}
+.i{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px rgb(143, 140, 140);
+    width: 400px;
+    height: 470px;
+    margin: 700px 0px 0px 850px;
+    border-radius: 20px;
+    position: absolute;
+}
+.h .a{
+    margin: 80px 0px 0px 53px;
+    width: 240px;
+}
+.h h1{
+    position: absolute;
+    margin: 290px 0px 0px 90px;
+    font-family: "Roboto", sans-serif;
+}
+.h p{
+    position: absolute;
+    font-size: 25px;
+    margin: 350px 0px 0px 100px;
+    color: rgb(80, 77, 77);
+}
+.h img.b{
+    width: 50px;
+    position: absolute;
+    margin: 400px 0px 0px 290px;
+}
+.i .a{
+    margin: 50px 0px 0px 53px;
+    width: 240px;
+}
+.i h1{
+    position: absolute;
+    margin: 290px 0px 0px 90px;
+    font-family: "Roboto", sans-serif;
+}
+.i p{
+    position: absolute;
+    font-size: 25px;
+    margin: 350px 0px 0px 100px;
+    color: rgb(80, 77, 77);
+}
+.i img.b{
+    width: 50px;
+    position: absolute;
+    margin: 400px 0px 0px 290px;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 1600px;
+    
+}
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    height: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px; 
+    
+}
+
+nav ul li a {
+    color: #323232;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 26px;
+   
+}
+img.a{
+    width: 50px;
+    padding: 17px 0px 0px 30px;
+    position: absolute;
+    color: #323232;
+}
+
+.b{
+    width: 50px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+.c{
+    width: 50px;
+    margin-left: 240px;
+    position: absolute;
+    z-index: 2;
+}
+
+a:hover{
+    font-size: 100%;
+    color: #000;
+}
+a:hover::after{
+    color: #000;
+}
+.w{
+    width: 550px;
+    margin:  190px 0px 0px 900px;
+    position: absolute;
+}
+
+div.a{
+    border: 2px solid #b7afaf ;
+    margin: 170px 0px 0px 60px;
+    border-radius: 20px;
+    width: 1400px;
+    height: 1400px;
+    
+}
+
+.a .b{
+    width: 500px;
+    margin: 80px 0px 0px 450px;
+}
+
+.a h1{
+    font-family: "Roboto", sans-serif;
+    margin: 620px 0px 0px 340px;
+    font-size: 50px;
+}
+.a p.a{
+    font-size: 30px;
+    color: #6e6a6a;
+    margin: 30px 0px 0px 340px;
+}
+
+.a p.b{
+    font-size: 40px;
+}
